@@ -22,6 +22,7 @@ Das Python-Skript `decode_smartmeter_mqtt.py`:
 *   Raspberry Pi OS (Lite oder Desktop)
 *   Python 3 mit einem eingerichteten `venv` (empfohlen)
 *   Ein laufender MQTT-Broker (z.B. Mosquitto)
+*   Eine laufende Homeassistant Instanz mit MQTT-Support
 
 ## Wichtige Bemerkungen
 *   Der Iskra AM550 Zähler sendet seine Daten **automatisch im Sekundentakt**, ohne dass eine Anfrage gesendet werden muss.
